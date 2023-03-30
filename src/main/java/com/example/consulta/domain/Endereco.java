@@ -10,5 +10,5 @@ import javax.validation.constraints.NotEmpty;
 public class Endereco {
     @NotEmpty
     public String cep;
-    
+
 }

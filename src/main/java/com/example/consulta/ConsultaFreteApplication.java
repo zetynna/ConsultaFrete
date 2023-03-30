@@ -4,10 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ConsultaTaxaEntregaApplication {
+public class ConsultaFreteApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(ConsultaTaxaEntregaApplication.class, args);
-	}
-
+  public static void main(String[] args) {
+    SpringApplication.run(ConsultaFreteApplication.class, args);
+  }
 }
