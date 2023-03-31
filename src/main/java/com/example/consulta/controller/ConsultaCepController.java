@@ -19,7 +19,7 @@ public class ConsultaCepController {
     @Autowired
     public ConsultaCepService consultaCepService;
 
-    @PostMapping(produces = MediaType.APPLICATION_JSON_VALUE)
+    @PostMapping(path= "/", consumes = "application/json", produces = "application/json")
     public TarifaDTO consultaCep(@RequestBody @Valid Endereco endereco){
         var responseJson = consultaCepService.consultaCep(endereco.getCep().replaceAll("\\p{Punct}",""));
         return responseJson;
